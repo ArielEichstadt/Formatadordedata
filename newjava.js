@@ -9,7 +9,9 @@ function data(){
 
         year: 'numeric', 
         month: 'long', 
-        day: 'numeric' }
+        day: 'numeric',
+        weekday: 'long'
+    }
        
 
     let formatedDate = date.toLocaleDateString('pt-BR', options);
